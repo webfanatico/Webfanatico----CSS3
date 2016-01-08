@@ -1,0 +1,14 @@
+ 	/*Selector adyacente en CSS2.1*/
+ 	h1 + h2{
+
+ 		color: blue
+ 	}
+
+ 	/* Selector general de hermanos de CSS3*/
+
+ 	h1 ~ h2 {
+
+ 		color: green
+ 	}
+
+ 	

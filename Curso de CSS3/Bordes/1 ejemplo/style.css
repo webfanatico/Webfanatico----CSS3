@@ -1,0 +1,8 @@
+p { 
+  border: silver 27px solid;  
+  border-image-source: url("img/3.png");
+  border-image-slice: 27;
+
+  padding: 10px;
+  text-align: justify;
+}

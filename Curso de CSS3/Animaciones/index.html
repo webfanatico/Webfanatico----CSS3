@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,iniial-scale=1, maximum-scale=1"/>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+	</head>
+<body>
+	<header>
+		<h1></h1>
+	</header>
+	<nav></nav>
+	<section>
+	<h2>Coche circulando:</h2>
+<div id="visor">
+<img id="fondoCoche" src="objetos/fondoCoche.gif" alt="fondoCoche">
+<img id="coche" src="objetos/coche.gif" alt="coche">
+<form action="#" name="controles" id="controles">
+<p><input type="button"  name="stop" value="stop" onclick="parar()"/>
+   <input type="button"  name="play" value="play" onclick="seguir()"/>
+   <b>Elige la velocidad:</b> <select name="vel">
+     <option selected="selected" onclick="velocidad(3000)"  >Normal</option>
+     <option onclick="velocidad(7000)">Muy lento</option>
+     <option onclick="velocidad(4500)">Lento</option>
+     <option onclick="velocidad(2000)">Rápido</option>
+     <option onclick="velocidad(1000)">Muy Rápido</option>
+     <option onclick="velocidad(500)">Super Rápido</option> 
+  </select>
+  </p>
+  </form>
+  </div>
+   </select>
+</form>
+</div>	
+	</section>
+
+	<footer>
+	</footer>
+	<script src="js/coche.js"></script>
+</body>
+</html>

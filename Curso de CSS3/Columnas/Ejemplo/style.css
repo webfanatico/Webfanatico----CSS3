@@ -1,0 +1,22 @@
+.ejemplo{
+
+	-moz-column-count:2;
+	-webkit-column-count:3;
+	-moz-column-width:100px;
+	-moz-column-grap:20px;
+	-webkit-column-width:100px;
+	-webkit-column-grap:20pz;
+
+
+/*Column-rule se centra en el espacio dedicado al grap*/
+
+	-webkit-column-rule:1px solid #ccc; 
+
+/*observad que indicamos, ancho, estilo y color.*/
+
+	-moz-column-rule: 1px solid #ccc;
+
+
+font-family: helvetica
+
+}

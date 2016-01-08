@@ -1,0 +1,15 @@
+/*Selecciona todos los enlaces que lleven a una pagina que contenga la palabra ejemplo*/
+
+a[href*="ejemplo"] {
+	color: red
+}
+
+/*Selecciona todos los enlaces que apunten a una dirección de correo*/
+a[href^="mailto:"]{
+	color: blue
+}
+
+/*Selecciona todos los enlaces que apuntan a páginas .php*/
+a[href$=".php"] {
+	color: green
+

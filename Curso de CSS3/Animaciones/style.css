@@ -1,0 +1,27 @@
+#visor { width: 600px; height: 440px; background-color: silver;
+         overflow: hidden; position: absolute; }
+#fondoCoche { position: relative; width: 1200px; height: 400px; }
+#coche{ position: absolute; top: 250px; left: 140px; width: 200px;  }
+
+@keyframes micoche { 
+     from { left: 0px; }
+     to { left: -600px; }   
+}
+@-webkit-keyframes micoche { 
+     from { left: 0px; }
+     to { left: -600px; }   
+}
+
+#fondoCoche {
+    animation-name: micoche;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+		
+    -webkit-animation-name: micoche;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;	
+    }
+
+ #controles p  { background-color: navy; color: yellow; margin: 0px; padding: 5px; }	
